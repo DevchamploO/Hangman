@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>Password Grenerator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<h1 id="title">Hangman - game</h1>
+	<canvas id="hangman" width="300" height="400"></canvas>
+	<div id='hints'>
+		<h3 style="text-align: center;">HINTS</h3>
+	  <p id="hint_1" onclick=></p>
+	  <p id="hint_2"></p>
+	</div>
+<div id="word_display"></div>
+
+<div id="keyboard">
+  <div id="toprow">
+    <div onclick="clickKey(this.innerHTML)" id="Q" class="key">Q</div>
+    <div onclick="clickKey(this.innerHTML)" id="W" class="key">W</div>
+    <div onclick="clickKey(this.innerHTML)" id="E" class="key">E</div>
+    <div onclick="clickKey(this.innerHTML)" id="R" class="key">R</div>
+    <div onclick="clickKey(this.innerHTML)" id="T" class="key">T</div>
+    <div onclick="clickKey(this.innerHTML)" id="Y" class="key">Y</div>
+    <div onclick="clickKey(this.innerHTML)" id="U" class="key">U</div>
+    <div onclick="clickKey(this.innerHTML)" id="I" class="key">I</div>
+    <div onclick="clickKey(this.innerHTML)" id="O" class="key">O</div>
+    <div onclick="clickKey(this.innerHTML)" id="P" class="key">P</div>
+  </div>
+  <div id="midrow">
+    <div onclick="clickKey(this.innerHTML)" id="A" class="key">A</div>
+    <div onclick="clickKey(this.innerHTML)" id="S" class="key">S</div>
+    <div onclick="clickKey(this.innerHTML)" id="D" class="key">D</div>
+    <div onclick="clickKey(this.innerHTML)" id="F" class="key">F</div>
+    <div onclick="clickKey(this.innerHTML)" id="G" class="key">G</div>
+    <div onclick="clickKey(this.innerHTML)" id="H" class="key">H</div>
+    <div onclick="clickKey(this.innerHTML)" id="J" class="key">J</div>
+    <div onclick="clickKey(this.innerHTML)" id="K" class="key">K</div>
+    <div onclick="clickKey(this.innerHTML)" id="L" class="key">L</div>
+  </div>
+  <div id="bottomrow">
+    <div onclick="clickKey(this.innerHTML)" id="Z" class="key">Z</div>
+    <div onclick="clickKey(this.innerHTML)" id="X" class="key">X</div>
+    <div onclick="clickKey(this.innerHTML)" id="C" class="key">C</div>
+    <div onclick="clickKey(this.innerHTML)" id="V" class="key">V</div>
+    <div onclick="clickKey(this.innerHTML)" id="B" class="key">B</div>
+    <div onclick="clickKey(this.innerHTML)" id="N" class="key">N</div>
+    <div onclick="clickKey(this.innerHTML)" id="M" class="key">M</div>
+  </div>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
